@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="SproutyDialogsDialogueData" format=3 uid="uid://d3s8vq5qn6yil"]
+
+[ext_resource type="Script" uid="uid://cbjdca3iwlx36" path="res://addons/sprouty_dialogs/resources/dialogue_data.gd" id="1_j81sp"]
+
+[resource]
+script = ExtResource("1_j81sp")
+graph_data = {
+"ABCD": {
+"dialogue_node_1": {
+"char_expand": true,
+"character": "",
+"dialog_key": "ABCD_DIALOG_1",
+"node_index": 1,
+"node_type": "dialogue_node",
+"offset": Vector2(680, 220),
+"portrait": "",
+"size": Vector2(363, 583),
+"to_dialog": "",
+"to_node": ["END"]
+},
+"start_node_1": {
+"node_index": 1,
+"node_type": "start_node",
+"offset": Vector2(245, 214),
+"size": Vector2(351, 123),
+"start_id": "ABCD",
+"to_dialog": "",
+"to_node": ["dialogue_node_1"]
+}
+}
+}
+dialogs = {
+"ABCD_DIALOG_1": {
+"default": "hello test",
+"en": ""
+}
+}
+characters = {
+"ABCD": {}
+}

@@ -1,3 +1,17 @@
 [gd_scene format=3 uid="uid://155xx7s6y6ta"]
 
+[ext_resource type="Script" uid="uid://1mxdpoyob13n" path="res://addons/sprouty_dialogs/nodes/dialog_player.gd" id="1_0wfyh"]
+[ext_resource type="Resource" uid="uid://d3s8vq5qn6yil" path="res://dialogue/a.tres" id="2_0wfyh"]
+
 [node name="main" type="Node2D" unique_id=1373463623]
+
+[node name="DialogPlayer" type="Node" parent="." unique_id=890897482]
+script = ExtResource("1_0wfyh")
+_dialog_data_uid = 9163750522413902403
+_dialog_file_name = "a"
+_dialog_data = ExtResource("2_0wfyh")
+_start_id = "ABCD"
+_play_on_ready = true
+_destroy_on_end = true
+_print_debug = false
+metadata/_custom_type_script = "uid://1mxdpoyob13n"
